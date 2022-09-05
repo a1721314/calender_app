@@ -60,7 +60,8 @@ class CalenderPage extends StatelessWidget {
               firstDay: DateTime.utc(2022, 4, 1),
               lastDay: DateTime.utc(2025, 12, 31), 
               focusedDay: DateTime.now(),
-              locale: 'ja_JP'
+              locale: 'ja_JP',
+              headerVisible: false,
             ),
           ],
         ),
