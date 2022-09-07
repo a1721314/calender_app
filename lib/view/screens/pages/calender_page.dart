@@ -62,6 +62,12 @@ class CalenderPage extends StatelessWidget {
               focusedDay: DateTime.now(),
               locale: 'ja_JP',
               headerVisible: false,
+              calendarStyle: const CalendarStyle(
+                todayDecoration: BoxDecoration(
+                    color: Colors.blue,
+                    shape: BoxShape.circle,
+                ),
+              ),
             ),
           ],
         ),
